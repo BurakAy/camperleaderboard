@@ -1,0 +1,92 @@
+$main-color: #006400;
+$main-font: Lato, sans-serif;
+
+html {
+  background-color: #F4F4EA;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 30px auto;
+  font-family: $main-font;
+  color: #333;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  padding: 20px;
+  background-color: $main-color;
+  color: white;
+}
+
+#topall:hover {
+  background-color: $main-color;
+  color: white;
+}
+
+.campertable {
+  margin: 0 auto 20px auto;
+  width: 100%;
+  text-align: left;
+  border-spacing: 0;
+
+  #toprecent, #topall {
+    cursor: pointer;
+    width:25%;
+  }
+
+  #toprecent:hover {
+    background-color: $main-color;
+    color: white;
+  }
+
+  th {
+    padding: 8px;
+    background-color: white;
+    border-bottom: 1px solid black;
+  }
+
+  tr:nth-child(even) {
+    background-color: white;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #DBE5DC;
+  }
+  
+  td {
+    padding: 8px;
+  }
+
+  tr:hover {
+    background-color: #92A78E;
+  }
+}
+
+a {
+  text-decoration: none;
+  vertical-align: middle;
+  color: #333;
+}
+
+img {
+  height: 35px;
+  width: 35px;
+  border: 1px solid black;
+  margin-right: 5px;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+footer {
+  padding-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 13px;
+
+  i {
+    vertical-align: middle;
+  }
+}
+
